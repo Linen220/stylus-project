@@ -1,13 +1,18 @@
 .contenido
-	margin-bottom: 40px
-	justify-content: space-evenly
+	justify-content: space-between
 	contenedor()
 	flex-wrap: wrap
 	gap: 20px
 
 .caja
-	max-width: 400px
+	max-width: 430px
+	margin-bottom: 30px
 	caja-sombra()
+	display: flex
+	flex-direction: column
+	justify-content: space-between
+	&__imagen img
+		width: 100%
 	&__contenido
 		padding: 20px
 		background-color: color-claro
